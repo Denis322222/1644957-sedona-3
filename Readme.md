@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Денис Антонов](https://up.htmlacademy.ru/htmlcss-individual/3/user/1644957).
+* Студент: [Денис Антонов](https://up.htmlacademy.ru/htmlcss-individual/3/user/1644957)
 * Наставник: [Дина Шарипова](https://htmlacademy.ru/profile/id1418957)
 * Сайт: [Мой проект](https://denis322222.github.io/1644957-sedona-3/)
 ---
