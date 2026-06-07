@@ -9,7 +9,7 @@
   <body>
     <header class="main-header">
       <a href="index.html">
-        <img class="logo" src="#" alt="Логотип Седона">
+        <img class="logo" src="images/svg/logo.svg" width="140" height="70" alt="Логотип Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -118,70 +118,70 @@
           <option value="expensive">Сначала дорогие</option>
           <option value="popular">Сначала популярные</option>
         </select>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать карточками описанием</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать Список</span>
-        </a>
+        <ul class="display-format">
+          <li class="display-item">
+            <a class="button" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+            </a>
+          </li>
+          <li class="display-item">
+            <a class="button" href="#">
+            <span class="visually-hidden">Показать карточками описанием</span>
+            </a>
+          </li>
+          <li class="display-item">
+            <a class="button" href="#">
+            <span class="visually-hidden">Показать Список</span>
+            </a>
+          </li>
+        </ul>
         <ul class="hotels-card-list">
           <li class="hotels-card-item">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-img" src="#" alt="Amara Resort & Spa">
+              <img class="hotels-card-img" src="images/Amara-Resort-&-Spa.jpg" width="300" height="212" alt="Amara Resort & Spa">
             </a>
             <h3 class="hotels-card-name">Amara Resort & Spa</h3>
             <span class="hotels-card-type">Гостиница</span>
             <span class="hotels-card-price">От 4000 ₽</span>
             <a class="hotels-card-more-info button" href="#">Подробнее</a>
             <button class="hotels-card-favorite" type="button">В избранное</button>
-            <span class="quantity-stars">
-              <img src="#" alt="4 звезды">
-            </span>
+            <span class="quantity-stars"></span>
             <p class="hotels-card-rating">Рейтинг: <span class="hotels-card-rating-rate">8,5</span></p>
           </li>
           <li class="hotels-card-item">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-img" src="#" alt="Villas at Poco Diablo">
+              <img class="hotels-card-img" src="images/Villas-at-Poco-Diablo.jpg" width="300" height="212" alt="Villas at Poco Diablo">
             </a>
             <h3 class="hotels-card-name">Villas at Poco Diablo</h3>
             <span class="hotels-card-type">Гостиница</span>
             <span class="hotels-card-price">От 5000 ₽</span>
             <a class="hotels-card-more-info button" href="#">Подробнее</a>
             <button class="hotels-card-favorite" type="button">В избранном</button>
-            <span class="quantity-stars">
-              <img src="#" alt="4 звезды">
-            </span>
+            <span class="quantity-stars"></span>
             <p class="hotels-card-rating">Рейтинг: <span class="hotels-card-rating-rate">9,2</span></p>
           </li>
           <li class="hotels-card-item">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-img" src="#" alt="Desert Quail Inn">
+              <img class="hotels-card-img" src="images/Desert-Quail-Inn.jpg" width="300" height="212" alt="Desert Quail Inn">
             </a>
             <h3 class="hotels-card-name">Desert Quail Inn</h3>
             <span class="hotels-card-type">Гостиница</span>
             <span class="hotels-card-price">От 2500 ₽</span>
             <a class="hotels-card-more-info button" href="#">Подробнее</a>
             <button class="hotels-card-favorite" type="button">В избранное</button>
-            <span class="quantity-stars">
-              <img src="#" alt="3 звезды">
-            </span>
+            <span class="quantity-stars"></span>
             <p class="hotels-card-rating">Рейтинг: <span class="hotels-card-rating-rate">6,9</span></p>
           </li>
           <li class="hotels-card-item">
             <a class="hotels-card-link" href="#">
-              <img class="hotels-card-img" src="#" alt="GreenTree Inn">
+              <img class="hotels-card-img" src="images/GreenTree-Inn.jpg" width="300" height="212" alt="GreenTree Inn">
             </a>
             <h3 class="hotels-card-name">GreenTree Inn</h3>
             <span class="hotels-card-type">Гостиница</span>
             <span class="hotels-card-price">От 1500 ₽</span>
             <a class="hotels-card-more-info button" href="#">Подробнее</a>
             <button class="hotels-card-favorite" type="button">В избранное</button>
-            <span class="quantity-stars">
-              <img src="#" alt="2 звезды">
-            </span>
+            <span class="quantity-stars"></span>
             <p class="hotels-card-rating">Рейтинг: <span class="hotels-card-rating-rate">5,0</span></p>
           </li>
         </ul>
@@ -210,7 +210,7 @@
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="subscribe-field" type="email" name="appointment-date" placeholder="Ваш e-mail">
+          <input class="subscribe-field" type="email" name="appointment-date" placeholder="Ваш e-mail" required>
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
